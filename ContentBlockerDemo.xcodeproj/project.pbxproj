@@ -11,6 +11,16 @@
 		EE739AA81BD7B3FD00E4C788 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EE739AA71BD7B3FD00E4C788 /* DataManager.m */; };
 		EE739AAB1BD7B56700E4C788 /* AppConfigurationmanager.m in Sources */ = {isa = PBXBuildFile; fileRef = EE739AAA1BD7B56700E4C788 /* AppConfigurationmanager.m */; };
 		EE8C3B551BE71DF700577438 /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = EE8C3B541BE71DF700577438 /* blockerList.json */; };
+		EE8C3BC41BEB604C00577438 /* customize.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE8C3BC31BEB604C00577438 /* customize.plist */; };
+		EE8C3BC71BEB62B000577438 /* YLSettingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8C3BC61BEB62B000577438 /* YLSettingModel.m */; };
+		EE8C3BCE1BEB6ACA00577438 /* blockerListComment.json in Resources */ = {isa = PBXBuildFile; fileRef = EE8C3BC81BEB6ACA00577438 /* blockerListComment.json */; };
+		EE8C3BCF1BEB6ACA00577438 /* blockerListFont.json in Resources */ = {isa = PBXBuildFile; fileRef = EE8C3BC91BEB6ACA00577438 /* blockerListFont.json */; };
+		EE8C3BD01BEB6ACA00577438 /* blockerListImage.json in Resources */ = {isa = PBXBuildFile; fileRef = EE8C3BCA1BEB6ACA00577438 /* blockerListImage.json */; };
+		EE8C3BD11BEB6ACA00577438 /* blockerListJavascript.json in Resources */ = {isa = PBXBuildFile; fileRef = EE8C3BCB1BEB6ACA00577438 /* blockerListJavascript.json */; };
+		EE8C3BD21BEB6ACA00577438 /* blockerListSocialButton.json in Resources */ = {isa = PBXBuildFile; fileRef = EE8C3BCC1BEB6ACA00577438 /* blockerListSocialButton.json */; };
+		EE8C3BD31BEB6ACA00577438 /* blockerListTrackers.json in Resources */ = {isa = PBXBuildFile; fileRef = EE8C3BCD1BEB6ACA00577438 /* blockerListTrackers.json */; };
+		EE8C3BD61BEB6AE200577438 /* CustomizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8C3BD51BEB6AE200577438 /* CustomizeViewController.m */; };
+		EE8C3BD91BEB6AEC00577438 /* BlockerRulesDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8C3BD81BEB6AEC00577438 /* BlockerRulesDataManager.m */; };
 		EED0E3F41B96D0FB00854EE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EED0E3F31B96D0FB00854EE1 /* main.m */; };
 		EED0E3F71B96D0FB00854EE1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EED0E3F61B96D0FB00854EE1 /* AppDelegate.m */; };
 		EED0E3FA1B96D0FC00854EE1 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EED0E3F91B96D0FC00854EE1 /* HomeViewController.m */; };
@@ -70,6 +80,21 @@
 		EE739AAA1BD7B56700E4C788 /* AppConfigurationmanager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppConfigurationmanager.m; sourceTree = "<group>"; };
 		EE739AAC1BD7B58D00E4C788 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		EE8C3B541BE71DF700577438 /* blockerList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = blockerList.json; sourceTree = "<group>"; };
+		EE8C3BC11BEB53F800577438 /* ContentBlockerDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ContentBlockerDemo.entitlements; sourceTree = "<group>"; };
+		EE8C3BC21BEB5B9B00577438 /* xblocker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = xblocker.entitlements; sourceTree = "<group>"; };
+		EE8C3BC31BEB604C00577438 /* customize.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = customize.plist; sourceTree = "<group>"; };
+		EE8C3BC51BEB62B000577438 /* YLSettingModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLSettingModel.h; sourceTree = "<group>"; };
+		EE8C3BC61BEB62B000577438 /* YLSettingModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLSettingModel.m; sourceTree = "<group>"; };
+		EE8C3BC81BEB6ACA00577438 /* blockerListComment.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = blockerListComment.json; sourceTree = "<group>"; };
+		EE8C3BC91BEB6ACA00577438 /* blockerListFont.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = blockerListFont.json; sourceTree = "<group>"; };
+		EE8C3BCA1BEB6ACA00577438 /* blockerListImage.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = blockerListImage.json; sourceTree = "<group>"; };
+		EE8C3BCB1BEB6ACA00577438 /* blockerListJavascript.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = blockerListJavascript.json; sourceTree = "<group>"; };
+		EE8C3BCC1BEB6ACA00577438 /* blockerListSocialButton.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = blockerListSocialButton.json; sourceTree = "<group>"; };
+		EE8C3BCD1BEB6ACA00577438 /* blockerListTrackers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = blockerListTrackers.json; sourceTree = "<group>"; };
+		EE8C3BD41BEB6AE200577438 /* CustomizeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomizeViewController.h; sourceTree = "<group>"; };
+		EE8C3BD51BEB6AE200577438 /* CustomizeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomizeViewController.m; sourceTree = "<group>"; };
+		EE8C3BD71BEB6AEC00577438 /* BlockerRulesDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockerRulesDataManager.h; sourceTree = "<group>"; };
+		EE8C3BD81BEB6AEC00577438 /* BlockerRulesDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockerRulesDataManager.m; sourceTree = "<group>"; };
 		EED0E3EF1B96D0FB00854EE1 /* ContentBlockerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContentBlockerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EED0E3F31B96D0FB00854EE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EED0E3F51B96D0FB00854EE1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -150,6 +175,11 @@
 		EED0E3F11B96D0FB00854EE1 /* ContentBlockerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				EE8C3BD71BEB6AEC00577438 /* BlockerRulesDataManager.h */,
+				EE8C3BD81BEB6AEC00577438 /* BlockerRulesDataManager.m */,
+				EE8C3BD41BEB6AE200577438 /* CustomizeViewController.h */,
+				EE8C3BD51BEB6AE200577438 /* CustomizeViewController.m */,
+				EE8C3BC11BEB53F800577438 /* ContentBlockerDemo.entitlements */,
 				EE739AAC1BD7B58D00E4C788 /* Constants.h */,
 				EE739AA91BD7B56700E4C788 /* AppConfigurationmanager.h */,
 				EE739AAA1BD7B56700E4C788 /* AppConfigurationmanager.m */,
@@ -166,6 +196,8 @@
 				EED0E3F21B96D0FB00854EE1 /* Supporting Files */,
 				EE739AA61BD7B3FD00E4C788 /* DataManager.h */,
 				EE739AA71BD7B3FD00E4C788 /* DataManager.m */,
+				EE8C3BC51BEB62B000577438 /* YLSettingModel.h */,
+				EE8C3BC61BEB62B000577438 /* YLSettingModel.m */,
 			);
 			path = ContentBlockerDemo;
 			sourceTree = "<group>";
@@ -173,6 +205,13 @@
 		EED0E3F21B96D0FB00854EE1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EE8C3BC81BEB6ACA00577438 /* blockerListComment.json */,
+				EE8C3BC91BEB6ACA00577438 /* blockerListFont.json */,
+				EE8C3BCA1BEB6ACA00577438 /* blockerListImage.json */,
+				EE8C3BCB1BEB6ACA00577438 /* blockerListJavascript.json */,
+				EE8C3BCC1BEB6ACA00577438 /* blockerListSocialButton.json */,
+				EE8C3BCD1BEB6ACA00577438 /* blockerListTrackers.json */,
+				EE8C3BC31BEB604C00577438 /* customize.plist */,
 				EED0E3F31B96D0FB00854EE1 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -199,6 +238,7 @@
 		EED0E42D1B96D15500854EE1 /* xblocker */ = {
 			isa = PBXGroup;
 			children = (
+				EE8C3BC21BEB5B9B00577438 /* xblocker.entitlements */,
 				EE8C3B541BE71DF700577438 /* blockerList.json */,
 				EED0E4301B96D15500854EE1 /* ActionRequestHandler.h */,
 				EED0E4311B96D15500854EE1 /* ActionRequestHandler.m */,
@@ -288,11 +328,18 @@
 		EED0E3E71B96D0FB00854EE1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = YL;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = lyang;
 				TargetAttributes = {
 					EED0E3EE1B96D0FB00854EE1 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 8GP2A47QW9;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					EED0E40A1B96D0FD00854EE1 = {
 						CreatedOnToolsVersion = 7.0;
@@ -304,6 +351,12 @@
 					};
 					EED0E42B1B96D15500854EE1 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 8GP2A47QW9;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -333,9 +386,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE8C3BCE1BEB6ACA00577438 /* blockerListComment.json in Resources */,
+				EE8C3BD31BEB6ACA00577438 /* blockerListTrackers.json in Resources */,
+				EE8C3BC41BEB604C00577438 /* customize.plist in Resources */,
+				EE8C3BCF1BEB6ACA00577438 /* blockerListFont.json in Resources */,
+				EE8C3BD21BEB6ACA00577438 /* blockerListSocialButton.json in Resources */,
 				EED0E4051B96D0FD00854EE1 /* LaunchScreen.storyboard in Resources */,
+				EE8C3BD11BEB6ACA00577438 /* blockerListJavascript.json in Resources */,
 				EED0E4021B96D0FC00854EE1 /* Assets.xcassets in Resources */,
 				EE739AA51BD7B3A200E4C788 /* blockerList.json in Resources */,
+				EE8C3BD01BEB6ACA00577438 /* blockerListImage.json in Resources */,
 				EED0E3FD1B96D0FC00854EE1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -372,8 +432,11 @@
 				EE739AAB1BD7B56700E4C788 /* AppConfigurationmanager.m in Sources */,
 				EED0E3FA1B96D0FC00854EE1 /* HomeViewController.m in Sources */,
 				EE739AA81BD7B3FD00E4C788 /* DataManager.m in Sources */,
+				EE8C3BD91BEB6AEC00577438 /* BlockerRulesDataManager.m in Sources */,
+				EE8C3BC71BEB62B000577438 /* YLSettingModel.m in Sources */,
 				EED0E4001B96D0FC00854EE1 /* ContentBlockerDemo.xcdatamodeld in Sources */,
 				EED0E3F71B96D0FB00854EE1 /* AppDelegate.m in Sources */,
+				EE8C3BD61BEB6AE200577438 /* CustomizeViewController.m in Sources */,
 				EED0E3F41B96D0FB00854EE1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -526,10 +589,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ContentBlockerDemo/ContentBlockerDemo.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ContentBlockerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = bainainfo.ContentBlockerDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yang.blocker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -537,10 +604,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ContentBlockerDemo/ContentBlockerDemo.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ContentBlockerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = bainainfo.ContentBlockerDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yang.blocker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -596,10 +667,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = xblocker/xblocker.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = xblocker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = bainainfo.ContentBlockerDemo.xblocker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yang.blocker.extension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -609,10 +684,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = xblocker/xblocker.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = xblocker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = bainainfo.ContentBlockerDemo.xblocker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yang.blocker.extension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

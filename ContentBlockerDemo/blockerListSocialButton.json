@@ -1,0 +1,438 @@
+{
+    "action": {
+        "type": "block"
+    },
+    "trigger": {
+        "url-filter": "https?://platform\\.twitter\\.com/widgets\\.js",
+        "load-type": [
+                      "third-party"
+                      ],
+        "resource-type": [
+                "script"
+            ]
+    }
+},
+{
+    "action": {
+        "type": "block"
+    },
+    "trigger": {
+        "url-filter": "https?://cdn\\.api\\.twitter\\.com/1/urls/count\\.json",
+        "load-type": [
+                      "third-party"
+                      ]
+    }
+},
+{
+    "action": {
+        "type": "block"
+    },
+    "trigger": {
+        "url-filter": "https?://urls\\.api\\.twitter\\.com/1/urls/count\\.json",
+        "load-type": [
+                      "third-party"
+                      ]
+    }
+},
+
+{
+    "action": {
+        "type": "css-display-none",
+        "selector":".twitter-follow-button"
+    },
+    "trigger": {
+        "url-filter":".*"
+    }
+},
+
+{
+    "action": {
+        "type": "css-display-none",
+        "selector":".twitter-mention-button"
+    },
+    "trigger": {
+        "url-filter":".*"
+    }
+},
+
+{
+    "action": {
+        "type": "css-display-none",
+        "selector":".twitter-share-button"
+    },
+    "trigger": {
+        "url-filter":".*"
+    }
+},
+
+{
+    "action": {
+        "type": "css-display-none",
+        "selector":".twitter-hashtag-button"
+    },
+    "trigger": {
+        "url-filter":".*"
+    }
+},
+
+{
+    "action": {
+        "type": "block"
+    },
+    "trigger": {
+        "url-filter": "https?://connet\\.facebook\\.net/en_US/all\\.js",
+        "load-type": [
+                      "third-party"
+                      ],
+        "resource-type": [
+            "script"
+        ]
+    }
+},
+
+{
+    "action": {
+        "type": "block"
+    },
+    "trigger": {
+        "url-filter": "https?://connet\\.facebook\\.net/en_US/fbds\\.js",
+        "load-type": [
+                      "third-party"
+                      ],
+        "resource-type": [
+            "script"
+        ]
+    }
+},
+{
+    "action": {
+        "type": "block"
+    },
+    "trigger": {
+        "url-filter": "https?://www\\.facebook\\.com/plugins/like",
+        "load-type": [
+                      "third-party"
+                      ]
+    }
+},
+
+{
+    "action": {
+        "type": "css-display-none",
+        "selector":".fb-like"
+    },
+    "trigger": {
+        "url-filter":".*"
+    }
+},
+{
+    "action": {
+        "type": "css-display-none",
+        "selector":".fb-share-button"
+    },
+    "trigger": {
+        "url-filter":".*"
+    }
+},
+
+{
+    "action": {
+        "type": "css-display-none",
+        "selector":".fb-send"
+    },
+    "trigger": {
+        "url-filter":".*"
+    }
+},
+{
+    "action": {
+        "type": "css-display-none",
+        "selector":".fb-comments"
+    },
+    "trigger": {
+        "url-filter":".*"
+    }
+},
+
+{
+    "action": {
+        "type": "css-display-none",
+        "selector": ".fb-page"
+    },
+    "trigger": {
+        "url-filter":".*"
+    }
+},
+
+{
+    "action": {
+        "type": "css-display-none",
+        "selector": ".fb-follow"
+    },
+    "trigger": {
+        "url-filter":".*"
+    }
+},
+
+{
+    "action": {
+        "type": "block"
+    },
+    "trigger": {
+        "url-filter": "https?://sumome",
+        "load-type": [
+                      "third-party"
+                      ],
+        "resource-type": [
+                "script"
+            ]
+    }
+},
+
+{
+    "action": {
+        "type": "block"
+    },
+    "trigger": {
+        "url-filter": "https?://load\\.sumome\\.com",
+        "load-type": [
+            "third-party"
+        ]
+
+    }
+},
+
+{
+    "action": {
+        "type": "block"
+    },
+    "trigger": {
+        "url-filter": "https?://apis\\.google\\.com/js/platform\\.js",
+        "load-type": [
+                      "third-party"
+                      ],
+        "resource-type": [
+            "script"
+        ]
+    }
+},
+
+{
+    "action": {
+        "type": "block"
+    },
+    "trigger": {
+        "url-filter": "https?://apis\\.google\\.com/js/plusone\\.js",
+        "load-type": [
+                      "third-party"
+                      ],
+        "resource-type": [
+            "script"
+        ]
+    }
+},
+
+{
+    "action": {
+        "type": "block"
+    },
+    "trigger": {
+        "url-filter": "https?://apis\\.google\\.com/js/client:plusone\\.js",
+        "load-type": [
+                      "third-party"
+                      ],
+        "resource-type": [
+            "script"
+        ]
+    }
+},
+
+{
+    "action": {
+        "type": "block"
+    },
+    "trigger": {
+        "url-filter": "https?://www\\.reddit\\.com/buttonlite\\.js",
+        "load-type": [
+                      "third-party"
+                      ],
+        "resource-type": [
+            "script"
+        ]
+    }
+},
+
+{
+    "action": {
+        "type": "block"
+    },
+    "trigger": {
+        "url-filter": "https?://www\\.redditstatic\\.com/button",
+        "load-type": [
+            "third-party"
+        ]
+    }
+},
+
+{
+    "action": {
+        "type": "block"
+    },
+    "trigger": {
+        "url-filter": "https?://www\\.reddit\\.com/static/button",
+        "load-type": [
+                      "third-party"
+                      ],
+        "resource-type": [
+            "script"
+        ]
+    }
+},
+
+{
+    "action": {
+        "type": "block"
+    },
+    "trigger": {
+        "url-filter": "https?://www\\.redditstatic\\.com/spreddit",
+        "load-type": [
+            "third-party"
+        ]
+    }
+},
+
+{
+    "action": {
+        "type": "block"
+    },
+    "trigger": {
+        "url-filter": "https?://assets\\.pinterest\\.com/js/pinit\\.js",
+        "load-type": [
+                      "third-party"
+                      ],
+        "resource-type": [
+            "script"
+        ]
+    }
+},
+{
+    "action": {
+        "type": "block"
+    },
+    "trigger": {
+        "url-filter": "https?://widgets\\.pinterest\\.com/v1/urls/count\\.json",
+        "load-type": [
+            "third-party"
+        ]
+
+    }
+},
+{
+    "action": {
+        "type": "block"
+    },
+    "trigger": {
+        "url-filter": "https?://api\\.pinterest\\.com/v1/urls/count\\.json",
+        "load-type": [
+            "third-party"
+        ]
+
+    }
+},
+{
+    "action": {
+        "type": "block"
+    },
+    "trigger": {
+        "url-filter": "https?://wdigets\\.getpocket\\.com/v1/j/btn\\.js",
+        "load-type": [
+                      "third-party"
+                      ],
+        "resource-type": [
+            "script"
+        ]
+    }
+},
+
+{
+    "action": {
+        "type": "block"
+    },
+    "trigger": {
+        "url-filter": "https?://paltform\\.stumbleupon\\.com/1/widgets\\.js",
+        "load-type": [
+            "third-party"
+        ],
+        "resource-type": [
+            "script"
+        ]
+    }
+},
+
+{
+    "action": {
+        "type": "block"
+    },
+    "trigger": {
+        "url-filter": "https?://cdn\\.script\\.to/share2\\.js",
+        "load-type": [
+                      "third-party"
+                      ],
+        "resource-type": [
+                "script"
+            ]
+    }
+},
+
+{
+    "action": {
+        "type": "block"
+    },
+    "trigger": {
+        "url-filter": "https?://sharethis\\.com",
+        "load-type": [
+                      "third-party"
+                      ],
+        "resource-type": [
+                          "script"
+                          ]
+    }
+},
+
+{
+    "action": {
+        "type": "block"
+    },
+    "trigger": {
+        "url-filter": "https?://platform\\.linkedin\\.com",
+        "load-type": [
+                      "third-party"
+                      ],
+        "resource-type": [
+                          "script"
+                          ]
+    }
+},
+
+{
+    "action": {
+        "type": "block"
+    },
+    "trigger": {
+        "url-filter": "https?://www\\.linkedin\\.com/countserv/count/share",
+        "load-type": [
+                      "third-party"
+                      ],
+        "resource-type": [
+            "script"
+        ]
+    }
+}
+
+
+
+
+
+
+
+

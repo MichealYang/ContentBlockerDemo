@@ -1,0 +1,17 @@
+{
+    "action": {
+        "type": "block"
+    },
+    "trigger": {
+        "url-filter": ".disqus\\.com/embed\\.js"
+    }
+},
+{
+    "action": {
+        "type": "block"
+    },
+    "trigger": {
+        "url-filter": ".disqus\\.com/count\\.js"
+    }
+}
+

@@ -1,0 +1,25 @@
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": ".*",
+            "resource-type": [
+                "font"
+            ]
+        }
+    },
+{
+    "action": {
+        "type": "block"
+    },
+    "trigger": {
+        "url-filter": ".*",
+        "load-type": [
+                      "third-party"
+                      ],
+        "resource-type": [
+            "font"
+        ]
+    }
+}

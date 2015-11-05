@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>customizeItems</key>
+	<array>
+		<dict>
+			<key>text</key>
+			<string>Ads and Data Tracker</string>
+			<key>desc</key>
+			<string>Block ad and analyzing data tracker</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Images</string>
+			<key>desc</key>
+			<string>Block Images to save data</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Comments</string>
+			<key>desc</key>
+			<string>Block user comments</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Social Button</string>
+			<key>desc</key>
+			<string>Block social sites sharing button</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Scripts</string>
+			<key>desc</key>
+			<string>Block website script</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Fonts</string>
+			<key>desc</key>
+			<string>Change fonts to easily legible fonts</string>
+		</dict>
+	</array>
+</dict>
+</plist>
