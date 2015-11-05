@@ -1,0 +1,12 @@
+[
+ {
+ "action": {
+ "type": "css-display-none",
+ "selector": ""
+ },
+ "trigger": {
+ "url-filter": "hamusoku.com"
+ }
+ }
+
+]
