@@ -56816,14 +56816,6 @@
                 "popup"
             ]
         }
-    },
-    {
-        "action": {
-            "type": "block"
-        },
-        "trigger": {
-            "url-filter": "journal"
-        }
     }
 ]
 

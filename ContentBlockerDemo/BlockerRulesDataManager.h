@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "BlockerRules.h"
 @interface BlockerRulesDataManager : NSObject
 {
 

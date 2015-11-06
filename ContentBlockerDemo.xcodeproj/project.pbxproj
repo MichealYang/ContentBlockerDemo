@@ -21,6 +21,8 @@
 		EE8C3BD31BEB6ACA00577438 /* blockerListTrackers.json in Resources */ = {isa = PBXBuildFile; fileRef = EE8C3BCD1BEB6ACA00577438 /* blockerListTrackers.json */; };
 		EE8C3BD61BEB6AE200577438 /* CustomizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8C3BD51BEB6AE200577438 /* CustomizeViewController.m */; };
 		EE8C3BD91BEB6AEC00577438 /* BlockerRulesDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8C3BD81BEB6AEC00577438 /* BlockerRulesDataManager.m */; };
+		EE8C3BE91BECAF1900577438 /* DeviceUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8C3BE81BECAF1900577438 /* DeviceUtils.m */; };
+		EE8C3BEB1BECBAAF00577438 /* huan-xing-wuhan.md in Sources */ = {isa = PBXBuildFile; fileRef = EE8C3BEA1BECBAAF00577438 /* huan-xing-wuhan.md */; };
 		EED0E3F41B96D0FB00854EE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EED0E3F31B96D0FB00854EE1 /* main.m */; };
 		EED0E3F71B96D0FB00854EE1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EED0E3F61B96D0FB00854EE1 /* AppDelegate.m */; };
 		EED0E3FA1B96D0FC00854EE1 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EED0E3F91B96D0FC00854EE1 /* HomeViewController.m */; };
@@ -95,6 +97,11 @@
 		EE8C3BD51BEB6AE200577438 /* CustomizeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomizeViewController.m; sourceTree = "<group>"; };
 		EE8C3BD71BEB6AEC00577438 /* BlockerRulesDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockerRulesDataManager.h; sourceTree = "<group>"; };
 		EE8C3BD81BEB6AEC00577438 /* BlockerRulesDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockerRulesDataManager.m; sourceTree = "<group>"; };
+		EE8C3BE51BECAE9200577438 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		EE8C3BE61BECAEF600577438 /* Debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Debug.h; sourceTree = "<group>"; };
+		EE8C3BE71BECAF1900577438 /* DeviceUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceUtils.h; sourceTree = "<group>"; };
+		EE8C3BE81BECAF1900577438 /* DeviceUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceUtils.m; sourceTree = "<group>"; };
+		EE8C3BEA1BECBAAF00577438 /* huan-xing-wuhan.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "huan-xing-wuhan.md"; sourceTree = "<group>"; };
 		EED0E3EF1B96D0FB00854EE1 /* ContentBlockerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContentBlockerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EED0E3F31B96D0FB00854EE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EED0E3F51B96D0FB00854EE1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -175,6 +182,8 @@
 		EED0E3F11B96D0FB00854EE1 /* ContentBlockerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				EE8C3BE71BECAF1900577438 /* DeviceUtils.h */,
+				EE8C3BE81BECAF1900577438 /* DeviceUtils.m */,
 				EE8C3BD71BEB6AEC00577438 /* BlockerRulesDataManager.h */,
 				EE8C3BD81BEB6AEC00577438 /* BlockerRulesDataManager.m */,
 				EE8C3BD41BEB6AE200577438 /* CustomizeViewController.h */,
@@ -205,6 +214,9 @@
 		EED0E3F21B96D0FB00854EE1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EE8C3BEA1BECBAAF00577438 /* huan-xing-wuhan.md */,
+				EE8C3BE61BECAEF600577438 /* Debug.h */,
+				EE8C3BE51BECAE9200577438 /* PrefixHeader.pch */,
 				EE8C3BC81BEB6ACA00577438 /* blockerListComment.json */,
 				EE8C3BC91BEB6ACA00577438 /* blockerListFont.json */,
 				EE8C3BCA1BEB6ACA00577438 /* blockerListImage.json */,
@@ -430,8 +442,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE739AAB1BD7B56700E4C788 /* AppConfigurationmanager.m in Sources */,
+				EE8C3BE91BECAF1900577438 /* DeviceUtils.m in Sources */,
 				EED0E3FA1B96D0FC00854EE1 /* HomeViewController.m in Sources */,
 				EE739AA81BD7B3FD00E4C788 /* DataManager.m in Sources */,
+				EE8C3BEB1BECBAAF00577438 /* huan-xing-wuhan.md in Sources */,
 				EE8C3BD91BEB6AEC00577438 /* BlockerRulesDataManager.m in Sources */,
 				EE8C3BC71BEB62B000577438 /* YLSettingModel.m in Sources */,
 				EED0E4001B96D0FC00854EE1 /* ContentBlockerDemo.xcdatamodeld in Sources */,
@@ -592,6 +606,7 @@
 				CODE_SIGN_ENTITLEMENTS = ContentBlockerDemo/ContentBlockerDemo.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = /Users/lyang/Documents/IOS_Study/ContentBlockerDemo/ContentBlockerDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = ContentBlockerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yang.blocker;
@@ -607,6 +622,7 @@
 				CODE_SIGN_ENTITLEMENTS = ContentBlockerDemo/ContentBlockerDemo.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = /Users/lyang/Documents/IOS_Study/ContentBlockerDemo/ContentBlockerDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = ContentBlockerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yang.blocker;
