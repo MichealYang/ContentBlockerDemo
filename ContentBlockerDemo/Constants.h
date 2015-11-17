@@ -30,18 +30,35 @@
 #define JSON_KEY_RULE_URL @"url"
 #define JSON_KEY_RULE_OTHER @"other"
 #define JSON_KEY_RULE_UPDATED @"updated"
+#define RATE_URL_PRO @"itms-apps://itunes.apple.com/cn/app/ad-blocker-pro-for-iphone/id1041679545?l=en&mt=8"
+#define RATE_URL_FREE @"itms-apps://itunes.apple.com/app/ad-blocker-for-safari-browser/id1039210135?l=en&mt=8"
 
+#define KEY_IS_NEW_USER @"KEY_IS_NEW_USER"
 #define KEY_AD_BLOCKER_RUN_COUNT @"KEY_AD_BLOCKER_RUN_COUNT"
 #define KEY_HAD_SHOW_USER_GUILD @"KEY_HAD_SHOW_USER_GUILD"
 #define KEY_AD_BLOCKER_SET_OK @"KEY_AD_BLOCKER_SET_OK"
 #define KEY_DHOW_1_BUTTON @"KEY_DHOW_1_BUTTON"
 #define KEY_CAN_CHANGE_PAGE @"KEY_CAN_CHANGE_PAGE"
+#define KEY_FIRST_LAUNCH_TIME @"KEY_FIRST_LAUNCH_TIME"
+#define KEY_HAS_RATE_APP @"KEY_HAS_RATE_APP"
+#define KEY_HAS_REMINDER_RATE_APP @"KEY_HAS_REMINDER_RATE_APP"
+
 
 #define KEY_NEED_LOAD_DEFAULT_RULES @"KEY_NEED_LOAD_DEFAULT_RULES"
 #define KEY_NEED_SHOW_UPDATE_BADGE @"KEY_NEED_SHOW_UPDATE_BADGE"
 #define KEY_NEED_GO_TO_UPDATE @"KEY_NEED_GO_TO_UPDATE"
 #define KEY_MAX_RULE_VERSION @"KEY_MAX_RULE_VERSION"
 #define KEY_LAST_LANGUAGE @"KEY_LAST_LANGUAGE"
+
+#define KEY_SWITCH_STATE @"KEY_SWITCH_STATE"
+
+#define JSON_BLOCKLIST_AD_DATA @"blockerListTrackers.json"
+#define JSON_BLOCKLIST_SOCIALBUTTON @"blockerListSocialButton.json"
+#define JSON_BLOCKLIST_COMMENT @"blockerListComment.json"
+#define JSON_BLOCKLIST_SCRIPT @"blockerListJavascript.json"
+#define JSON_BLOCKLIST_FONT @"blockerListFont.json"
+#define JSON_BLOCKLIST_IMAGE @"blockerListImage.json"
+#define JSON_BLOCKLIST_ORIGIN @"originAdRule.json"
 
 
 

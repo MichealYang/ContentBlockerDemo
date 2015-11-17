@@ -7,7 +7,7 @@
 //
 
 #import "AppConfigurationmanager.h"
-#import "Constants.h"
+#define FITST_LAUNCH_TIME_INTERVAL 24*60*60 //24小时
 
 @implementation AppConfigurationmanager
 +(AppConfigurationmanager*)shareInstance
@@ -19,6 +19,7 @@
     dispatch_once(&oncePredicate, ^{
         _instance = [[AppConfigurationmanager alloc] init];
     });
+
     return _instance;
 }
 
@@ -40,6 +41,72 @@
 -(BOOL)firstLaunch {
     return [self launchCount] <=1;
 }
+
+-(BOOL)shouldRateAppDialogShow
+{
+    double firstLaunchTime = [[self getFisrtLaunchTime]doubleValue];
+    double now = [[NSDate date]timeIntervalSince1970];
+    return (now - firstLaunchTime > FITST_LAUNCH_TIME_INTERVAL) && ([self launchCount] > 1) && ![self hasRatedApp] && [self isNewUser];
+}
+
+-(BOOL)isNewUser
+{
+    NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
+    return [userDefaults boolForKey:KEY_IS_NEW_USER];
+}
+
+
+-(void)setIsNewUser
+{
+    NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
+    [userDefaults setBool:YES forKey:KEY_IS_NEW_USER];
+    [userDefaults synchronize];
+}
+
+
+
+-(BOOL)hasReminderRateApp
+{
+    NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
+    return [userDefaults boolForKey:KEY_HAS_REMINDER_RATE_APP];
+}
+
+-(void)setHasReminderRateApp
+{
+    NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
+    [userDefaults setBool:YES forKey:KEY_HAS_REMINDER_RATE_APP];
+    [userDefaults synchronize];
+}
+
+
+-(BOOL)hasRatedApp
+{
+    NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
+    return [userDefaults boolForKey:KEY_HAS_RATE_APP];
+}
+
+
+-(void)setHasRatedApp
+{
+    NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
+    [userDefaults setBool:YES forKey:KEY_HAS_RATE_APP];
+    [userDefaults synchronize];
+}
+
+
+-(NSNumber *)getFisrtLaunchTime
+{
+    NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
+    return  [userDefaults objectForKey:KEY_FIRST_LAUNCH_TIME];
+}
+
+-(void)setFirstLaunchTime: (NSNumber *)time
+{
+    NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
+    [userDefaults setObject:time forKey:KEY_FIRST_LAUNCH_TIME];
+    [userDefaults synchronize];
+}
+
 
 -(BOOL)hadShowUserGuild
 {
@@ -145,18 +212,17 @@
     return [userDefaults integerForKey:KEY_MAX_RULE_VERSION];
 }
 
--(NSString *)getLastLanguage
+-(void)setSwitchState:(NSMutableDictionary *)switchStatDic
 {
     NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
-    return [userDefaults valueForKey:KEY_LAST_LANGUAGE];
+    [userDefaults setValue:switchStatDic forKey:KEY_SWITCH_STATE];
+    [userDefaults synchronize];
 }
 
--(void)setLastLanguage:(NSString *)language
-
+-(NSMutableDictionary *)getSwitchState
 {
     NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
-    [userDefaults setValue:language forKey:KEY_LAST_LANGUAGE];
-    [userDefaults synchronize];
+    return [[userDefaults valueForKey:KEY_SWITCH_STATE] mutableCopy];
 }
 
 @end

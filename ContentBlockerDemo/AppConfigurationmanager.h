@@ -12,6 +12,8 @@
 @interface AppConfigurationmanager : NSObject
 +(AppConfigurationmanager *) shareInstance;
 
+-(void)setIsNewUser;
+-(BOOL)isNewUser;
 -(void)incraseAppLaunchCount;
 -(NSUInteger)launchCount;
 -(BOOL)firstLaunch;
@@ -31,7 +33,13 @@
 -(BOOL)needGoToUpdate;
 -(NSUInteger)maxRuleVersion;
 -(void)updateMaxRuleVersion:(NSUInteger)version;
-
--(void)setLastLanguage:(NSString *)language;
--(NSString*)getLastLanguage;
+-(NSNumber *)getFisrtLaunchTime;
+-(void)setFirstLaunchTime: (NSNumber *)time;
+-(BOOL)shouldRateAppDialogShow;
+-(BOOL)hasRatedApp;
+-(void)setHasRatedApp;
+-(BOOL)hasReminderRateApp;
+-(void)setHasReminderRateApp;
+-(void)setSwitchState:(NSDictionary *)switchStatDic;
+-(NSMutableDictionary *)getSwitchState;
 @end

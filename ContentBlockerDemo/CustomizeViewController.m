@@ -92,7 +92,6 @@
 -(void)back
 {
     DebugLog(@"[CustomizeViewController] %s", __func__);
-    [Flurry logEvent:@"Customize|Back"];
     [self.navigationController popViewControllerAnimated:YES];
 }
 
